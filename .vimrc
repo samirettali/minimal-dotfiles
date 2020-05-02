@@ -4,6 +4,9 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set smarttab
+set smartindent
+set autoindent
 set ignorecase
 set smartcase
 set undofile
@@ -16,6 +19,9 @@ set number
 set relativenumber
 set splitbelow
 set splitright
+set incsearch
+set cursorline
+
 
 nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
