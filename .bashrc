@@ -7,6 +7,7 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 # Aliases and functions
 alias ls="ls --color -h --group-directories-first"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 t() {
     if [ -z "$1" ]; then
