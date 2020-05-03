@@ -23,14 +23,13 @@ set incsearch
 set cursorline
 set hidden
 
-
-nnoremap <C-j> <C-w><C-j>
-nnoremap <C-k> <C-w><C-k>
-nnoremap <C-l> <C-w><C-l>
-nnoremap <C-h> <C-w><C-h>
-
 nnoremap <silent> <C-n> :bnext<CR>
 nnoremap <silent> <C-p> :bprev<CR>
+
+nnoremap \ :vsplit<CR>
+nnoremap - :split<CR>
+nnoremap \| :vsplit 
+nnoremap _ :split 
 
 vmap < <gv
 vmap > >gv
