@@ -21,6 +21,7 @@ set splitbelow
 set splitright
 set incsearch
 set cursorline
+set hidden
 
 
 nnoremap <C-j> <C-w><C-j>
