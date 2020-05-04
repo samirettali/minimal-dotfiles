@@ -13,7 +13,7 @@ set undofile
 set undodir=~/.config/vim/undo
 set undolevels=1000
 set undoreload=10000
-set backupdir=~/.config/vim/tmp
+set backupdir=~/.config/vim/backup
 set directory=~/.config/vim/tmp
 set number
 set relativenumber
@@ -22,6 +22,8 @@ set splitright
 set incsearch
 set cursorline
 set hidden
+
+let &colorcolumn=join(range(81,999),",")
 
 nnoremap <silent> <C-n> :bnext<CR>
 nnoremap <silent> <C-p> :bprev<CR>
