@@ -22,8 +22,7 @@ set splitright
 set incsearch
 set cursorline
 set hidden
-
-let &colorcolumn=join(range(81,999),",")
+set colorcolumn=81
 
 nnoremap <silent> <C-n> :bnext<CR>
 nnoremap <silent> <C-p> :bprev<CR>
@@ -40,3 +39,5 @@ vmap <C-c> "+y
 vmap <C-x> "+c
 vmap <C-v> c<Esc>"+p
 imap <C-v> <C-r><C-o>+"
+
+hi ColorColumn ctermbg=red
