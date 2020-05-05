@@ -35,3 +35,8 @@ nnoremap _ :split
 
 vmap < <gv
 vmap > >gv
+
+vmap <C-c> "+y
+vmap <C-x> "+c
+vmap <C-v> c<Esc>"+p
+imap <C-v> <C-r><C-o>+"
