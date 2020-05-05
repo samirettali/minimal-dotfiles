@@ -10,11 +10,11 @@ set autoindent
 set ignorecase
 set smartcase
 set undofile
-set undodir=~/.config/vim/undo
+set undodir=~/.vim/undo
 set undolevels=1000
 set undoreload=10000
-set backupdir=~/.config/vim/backup
-set directory=~/.config/vim/tmp
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
 set number
 set relativenumber
 set splitbelow
