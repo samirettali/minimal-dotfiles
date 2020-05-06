@@ -4,8 +4,15 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set backspace=indent,eol,start
+set encoding=utf-8
 set smarttab
+set ttyfast
+set hlsearch
+set incsearch
 set smartindent
+set list
+set listchars=tab:»·,trail:·,nbsp:~,eol:¬
 set autoindent
 set ignorecase
 set smartcase
