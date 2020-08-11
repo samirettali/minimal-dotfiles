@@ -47,4 +47,5 @@ vmap <C-x> "+c
 vmap <C-v> c<Esc>"+p
 imap <C-v> <C-r><C-o>+"
 
+colorscheme desert
 hi ColorColumn ctermbg=red
