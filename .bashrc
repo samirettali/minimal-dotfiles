@@ -10,6 +10,7 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 # Aliases and functions
 alias f="fdfind"
 alias ls="ls --color -h --group-directories-first"
+alias grep="grep --color"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 t() {
